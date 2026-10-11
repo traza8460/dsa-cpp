@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int a,b,c; cin>>a; cin>>b; cin>>c;
+    if ((a+b)>c && (b+c)>a && (c+a)>b){
+        cout<<"sides of trianle"<<endl;
+    }
+    else {
+        cout<<"not a sides of trianle "<<endl;
+    }
+    return 0;
+} 
